@@ -106,8 +106,41 @@ main{
     width: 400PX;
     height: 200px;
     background-color: gray;
-
 }
 
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
 
+.information-header{
+    padding: 32px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
 
+.information-items{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.information-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.information-item div:first-child{
+    height: 150px;
+    width: 150px;
+    /* background-color: grey; */
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
