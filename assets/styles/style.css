@@ -53,5 +53,61 @@ main{
     flex-direction: column;
 }
 
+.hero{
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-wrapper{
+    background-color: #1f2937;
+    width: 100vw;
+}
+
+.hero-wrapper *{
+    margin: 0 auto;
+}
+
+.hero-text{
+    flex-wrap: wrap;
+}
+
+.hero-text *{
+    padding: 8px;
+}
+
+.hero-tittle{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-subtittle{
+    color: #f9faf8;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.hero button{
+    background-color: #3882f6;
+    padding: 10px 40px;
+    color: #f9faf8;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero-img-placeholder{
+    width: 400PX;
+    height: 200px;
+    background-color: gray;
+
+}
+
 
 
