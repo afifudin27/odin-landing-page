@@ -167,3 +167,41 @@ main{
     text-align: right;
 }
 
+.action{
+    padding: 70px;
+}
+
+.action-container{
+    background-color: #3882f6;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5e7eb;
+    border-radius: 20px;
+}
+
+.action-text *{
+    padding: 0;
+    margin: 0;
+}
+
+.action-text *:first-child{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action button{
+    padding: 10px 30px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px #e5e7eb solid;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #1f2937;
+    padding: 30px;
+    color: #e5e7eb;
+}
