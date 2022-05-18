@@ -144,3 +144,26 @@ main{
     border: 2px solid #3882f6;
     border-radius: 10px;
 }
+
+.quote-wrapper{
+    width: 100vw;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    width: 70vw;
+    padding: 70px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote p:last-child{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
